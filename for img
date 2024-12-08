@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Blocks</title>
+  <style>
+    body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.container {
+  display: flex;
+}
+
+.block {
+  width: 150px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.block1 {
+  background-color: #4f4f4f;
+}
+
+.block2 {
+  background-color: #303030;
+}
+
+.block3 {
+  background-color: #000000;
+  color: #00a1b4; /* Teal text */
+}
+
+.text {
+  font-family: 'Arial', sans-serif;
+}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="block block1">
+      <span class="text">Aa</span>
+    </div>
+    <div class="block block2">
+      <span class="text">Aa</span>
+    </div>
+    <div class="block block3">
+      <span class="text">Aa</span>
+    </div>
+  </div>
+</body>
+</html>
